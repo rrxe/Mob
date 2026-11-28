@@ -1,0 +1,13 @@
+{
+  "name": "green-valley-telegram",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Green Valley - Telegram farming simulator (zero dependencies)",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "DEV_AUTH=1 node server/index.js",
+    "test": "node test/smoke.mjs && node test/farm.mjs && node test/features.mjs && node test/migration.mjs && node test/ui-smoke.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
